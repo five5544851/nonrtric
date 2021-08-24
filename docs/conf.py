@@ -12,6 +12,7 @@ linkcheck_ignore = [
     './ecs-api.html' #Generated file that doesn't exist at link check.
 ]
 
+# test release
 extensions = ['sphinxcontrib.redoc', 'sphinx.ext.intersphinx',]
 
 redoc = [
